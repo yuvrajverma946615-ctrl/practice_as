@@ -1,12 +1,12 @@
- const promise = new Promise((resolve, reject) => {
- let success = true;
+//  const promise = new Promise((resolve, reject) => {
+//  let success = true;
 
- if (success) {
-    resolve("task is completed");
-  } else {
-     reject("task is not completed");
-  }
-});
+//  if (success) {
+//     resolve("task is completed");
+//   } else {
+//      reject("task is not completed");
+//   }
+// });
 
 // // // // //  function app() {
 // // // // //   fetch('https://api.freeapi.app/api/v1/public/randomproducts/product/random')
@@ -56,24 +56,24 @@
 // // // // //    }
 // // // // //   }
 
-// // //   function login (username, password,callback) {
-// // //     setTimeout(() => {
-// // //       if (username === "Yuvraj" && password === "123"){
+  function login (username, password,callback) {
+    setTimeout(() => {
+      if (username === "Yuvraj" && password === "123"){
 
-// // //         callback(null, "You got damm right");
-// // //       } else{
+        callback(null, "You got damm right");
+      } else{
 
-// // //         callback("You fu**d up ", null);
-// // //       }
-// // //     },3000);
-// // //   }
-// // //   login ("rohit", "456", (err, msg) => {
-// // //     if (err) {
-// // //       console.error(err);
-// // //     } else {
-// // //       console.log(msg);
-// // //     }
-// // //   });
+        callback("You fu**d up ", null);
+      }
+    },3000);
+  }
+  login ("rohit", "456", (err, msg) => {
+    if (err) {
+      console.error(err);
+    } else {
+      console.log(msg);
+    }
+  });
 
 // // // function login(username, password, callback) {
 // // //   setTimeout(() => {
