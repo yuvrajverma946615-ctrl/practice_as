@@ -310,7 +310,12 @@
 
 
 
-let someNumber = 44
-let stringNumber = String(someNumber);
-console.log(typeof someNumber);
-console.log(typeof stringNumber);
+let str1= "hello"
+
+let str2 = str1.replace("hello","Yuvraj");
+
+console.log(str2)
+
+
+console.log("2" +  4 + "2");
+console.log("1" * 10 /  2);
